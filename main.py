@@ -1,16 +1,43 @@
-# This is a sample Python script.
+import data
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+class TestUrbanRoutes:
 
+    def test_set_route(self):
+        # Adicionar em S8
+        print("Função criada para definir a rota")
+        pass
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    def test_select_plan(self):
+        # Adicionar em S8
+        print("Função criada para selecionar o plano")
+        pass
 
+    def test_fill_phone_number(self):
+        # Adicionar em S8
+        print("Função criada para preencher o número de telefone")
+        pass
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+    def test_fill_card(self):
+        # Adicionar em S8
+        print("Função criada para preencher os dados do cartão")
+        pass
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def test_comment_for_driver(self):
+        # Adicionar em S8
+        print("Função criada para escrever mensagem para o motorista")
+        pass
+
+    def test_order_blanket_and_handkerchiefs(self):
+        # Adicionar em S8
+        print("Função criada para pedir cobertor e lenços")
+        pass
+
+    def test_order_2_ice_creams(self):
+        # Adicionar em S8
+        print("Função criada para pedir 2 sorvetes")
+        pass
+
+    def test_car_search_model_appears(self):
+        # Adicionar em S8
+        print("Função criada para verificar modelo do carro")
+        pass
