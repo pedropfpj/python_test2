@@ -1,24 +1,35 @@
 # QA Automation Tests 🚀
 
-Este repositório contém testes automatizados desenvolvidos em Python para validação de funcionalidades em aplicações web.
+Este projeto contém testes automatizados desenvolvidos em Python utilizando Selenium para validação de funcionalidades de uma aplicação web.
 
-## Tecnologias utilizadas
+---
+
+## 🎯 Objetivo
+
+Garantir a qualidade da aplicação através da automação de testes, validando comportamentos esperados e identificando possíveis falhas.
+
+---
+
+## 🧪 Testes realizados
+
+- Validação de fluxos principais da aplicação
+- Testes de interação com elementos da interface
+- Verificação de comportamentos esperados vs reais
+- Execução automatizada de cenários de teste
+
+---
+
+## 🛠 Tecnologias utilizadas
+
 - Python
 - Selenium WebDriver
 - Pytest
+- ChromeDriver
 
-## O que está sendo testado
-- Fluxos principais da aplicação
-- Validação de campos
-- Testes de regras de negócio
-- Simulação de ações do usuário
+---
 
-## Objetivo
-Praticar automação de testes e aplicar conceitos de QA, como:
-- Classes de equivalência
-- Valores limite
-- Testes funcionais
+## ▶️ Como executar os testes
 
-## Autor
-Pedro Freire  
-Junior QA Analyst
+1. Instale as dependências:
+```bash
+pip install -r requirements.txt
