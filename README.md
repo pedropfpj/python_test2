@@ -28,8 +28,16 @@ Garantir a qualidade da aplicação através da automação de testes, validando
 
 ---
 
-## ▶️ Como executar os testes
+## ▶️ Como executar os testes (pytest)
 
 1. Instale as dependências:
+
 ```bash
 pip install -r requirements.txt
+```
+
+2. Execute os testes:
+
+```bash
+pytest main.py
+```
