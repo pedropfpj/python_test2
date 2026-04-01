@@ -1,43 +1,68 @@
-# QA Automation Tests 🚀
+# QA Web Automation
 
-Este projeto contém testes automatizados desenvolvidos em Python utilizando Selenium para validação de funcionalidades de uma aplicação web.
+Este repositório contém testes automatizados desenvolvidos em Python com Selenium para validação de funcionalidades de uma aplicação web.
 
----
+O projeto foi criado com o objetivo de praticar automação de testes, estruturação de código, interação com elementos da interface e execução de cenários automatizados.
 
-## 🎯 Objetivo
+## Objetivo
 
-Garantir a qualidade da aplicação através da automação de testes, validando comportamentos esperados e identificando possíveis falhas.
+Este projeto foi desenvolvido para praticar:
 
----
+- automação de testes web
+- validação de fluxos principais da aplicação
+- interação com elementos da interface
+- verificação de comportamentos esperados versus reais
+- organização de scripts de teste
 
-## 🧪 Testes realizados
-
-- Validação de fluxos principais da aplicação
-- Testes de interação com elementos da interface
-- Verificação de comportamentos esperados vs reais
-- Execução automatizada de cenários de teste
-
----
-
-## 🛠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Python
 - Selenium WebDriver
 - Pytest
 - ChromeDriver
 
----
-
-## ▶️ Como executar os testes (pytest)
-
-1. Instale as dependências:
+## Estrutura do projeto
 
 ```bash
-pip install -r requirements.txt
+.
+├── README.md
+├── data.py
+├── helpers.py
+└── main.py
 ```
 
-2. Execute os testes:
+## Descrição dos arquivos
+
+- `README.md`: documentação principal do projeto
+- `data.py`: dados e constantes utilizados nos testes
+- `helpers.py`: funções auxiliares para apoio à automação
+- `main.py`: arquivo principal com os testes automatizados
+
+## Como executar os testes
+
+Execute os testes com:
 
 ```bash
 pytest main.py
 ```
+
+Se preferir, também é possível executar diretamente com:
+
+```bash
+python main.py
+```
+
+## Testes realizados
+
+- validação de fluxos principais da aplicação
+- testes de interação com elementos da interface
+- verificação de comportamentos esperados versus reais
+- execução automatizada de cenários de teste
+
+## Finalidade do repositório
+
+Este projeto faz parte do meu portfólio de estudos em QA Automation e representa minha prática com automação de testes web utilizando Python e Selenium.
+
+## Autor
+
+Pedro Freire
